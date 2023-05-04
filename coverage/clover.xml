@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1683208971401" clover="3.2.0">
-  <project timestamp="1683208971401" name="All files">
+<coverage generated="1683211491497" clover="3.2.0">
+  <project timestamp="1683211491497" name="All files">
     <metrics statements="59" coveredstatements="59" conditionals="18" coveredconditionals="18" methods="14" coveredmethods="14" elements="91" coveredelements="91" complexity="0" loc="59" ncloc="59" packages="1" files="5" classes="5"/>
     <file name="analyzeArray.js" path="C:\Users\amand\Desktop\Brainnest-Adv-FD-Course---Tests\Functions\analyzeArray.js">
       <metrics statements="27" coveredstatements="27" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7"/>
