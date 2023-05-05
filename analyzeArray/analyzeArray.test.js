@@ -1,4 +1,4 @@
-const onlyNumbers = require('../Functions/analyzeArray');
+const onlyNumbers = require('./analyzeArray');
 
 describe('Return true and create an object', () => {
     test('1. Received only numbers', () => {

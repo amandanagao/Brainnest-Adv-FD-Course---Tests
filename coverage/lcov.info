@@ -1,5 +1,5 @@
 TN:
-SF:Functions\analyzeArray.js
+SF:analyzeArray\analyzeArray.js
 FN:8,onlyNumbers
 FN:9,(anonymous_1)
 FN:26,averageResult
@@ -53,7 +53,7 @@ BRF:4
 BRH:4
 end_of_record
 TN:
-SF:Functions\caesarCipher.js
+SF:caesarCipher\caesarCipher.js
 FN:1,(anonymous_0)
 FNF:1
 FNH:1
@@ -91,7 +91,7 @@ BRF:12
 BRH:12
 end_of_record
 TN:
-SF:Functions\calculator.js
+SF:calculator\calculator.js
 FN:2,(anonymous_0)
 FN:6,(anonymous_1)
 FN:10,(anonymous_2)
@@ -118,7 +118,7 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:Functions\capitalize.js
+SF:capitalize\capitalize.js
 FN:1,capitalize
 FNF:1
 FNH:1
@@ -132,7 +132,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:Functions\reverseString.js
+SF:reverseString\reverseString.js
 FN:1,reverseString
 FNF:1
 FNH:1

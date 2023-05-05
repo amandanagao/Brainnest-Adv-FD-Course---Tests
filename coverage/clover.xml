@@ -1,79 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1683315908290" clover="3.2.0">
-  <project timestamp="1683315908290" name="All files">
-    <metrics statements="58" coveredstatements="58" conditionals="18" coveredconditionals="18" methods="14" coveredmethods="14" elements="90" coveredelements="90" complexity="0" loc="58" ncloc="58" packages="1" files="5" classes="5"/>
-    <file name="analyzeArray.js" path="C:\Users\amand\Desktop\Brainnest-Adv-FD-Course---Tests\Functions\analyzeArray.js">
+<coverage generated="1683316473470" clover="3.2.0">
+  <project timestamp="1683316473471" name="All files">
+    <metrics statements="58" coveredstatements="58" conditionals="18" coveredconditionals="18" methods="14" coveredmethods="14" elements="90" coveredelements="90" complexity="0" loc="58" ncloc="58" packages="5" files="5" classes="5"/>
+    <package name="analyzeArray">
       <metrics statements="27" coveredstatements="27" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="9" count="5" type="stmt"/>
-      <line num="10" count="24" type="cond" truecount="2" falsecount="0"/>
-      <line num="11" count="3" type="stmt"/>
-      <line num="15" count="5" type="cond" truecount="2" falsecount="0"/>
-      <line num="16" count="3" type="stmt"/>
-      <line num="17" count="3" type="stmt"/>
-      <line num="18" count="3" type="stmt"/>
-      <line num="19" count="3" type="stmt"/>
-      <line num="22" count="2" type="stmt"/>
-      <line num="27" count="3" type="stmt"/>
-      <line num="28" count="11" type="stmt"/>
-      <line num="30" count="3" type="stmt"/>
-      <line num="34" count="3" type="stmt"/>
-      <line num="35" count="19" type="stmt"/>
-      <line num="37" count="3" type="stmt"/>
-      <line num="38" count="3" type="stmt"/>
-      <line num="42" count="3" type="stmt"/>
-      <line num="43" count="3" type="stmt"/>
-      <line num="44" count="3" type="stmt"/>
-      <line num="45" count="3" type="stmt"/>
-      <line num="48" count="1" type="stmt"/>
-    </file>
-    <file name="caesarCipher.js" path="C:\Users\amand\Desktop\Brainnest-Adv-FD-Course---Tests\Functions\caesarCipher.js">
+      <file name="analyzeArray.js" path="C:\Users\amand\Desktop\Brainnest-Adv-FD-Course---Tests\analyzeArray\analyzeArray.js">
+        <metrics statements="27" coveredstatements="27" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="15" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="28" count="11" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="35" count="19" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="caesarCipher">
       <metrics statements="15" coveredstatements="15" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="8" type="cond" truecount="2" falsecount="0"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="6" count="7" type="stmt"/>
-      <line num="8" count="7" type="stmt"/>
-      <line num="9" count="77" type="stmt"/>
-      <line num="11" count="77" type="cond" truecount="2" falsecount="0"/>
-      <line num="12" count="74" type="stmt"/>
-      <line num="16" count="74" type="cond" truecount="4" falsecount="0"/>
-      <line num="17" count="10" type="stmt"/>
-      <line num="21" count="64" type="cond" truecount="4" falsecount="0"/>
-      <line num="22" count="59" type="stmt"/>
-      <line num="26" count="77" type="stmt"/>
-      <line num="29" count="7" type="stmt"/>
-      <line num="32" count="1" type="stmt"/>
-    </file>
-    <file name="calculator.js" path="C:\Users\amand\Desktop\Brainnest-Adv-FD-Course---Tests\Functions\calculator.js">
+      <file name="caesarCipher.js" path="C:\Users\amand\Desktop\Brainnest-Adv-FD-Course---Tests\caesarCipher\caesarCipher.js">
+        <metrics statements="15" coveredstatements="15" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="9" count="77" type="stmt"/>
+        <line num="11" count="77" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="74" type="stmt"/>
+        <line num="16" count="74" type="cond" truecount="4" falsecount="0"/>
+        <line num="17" count="10" type="stmt"/>
+        <line num="21" count="64" type="cond" truecount="4" falsecount="0"/>
+        <line num="22" count="59" type="stmt"/>
+        <line num="26" count="77" type="stmt"/>
+        <line num="29" count="7" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="calculator">
       <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="3" count="2" type="stmt"/>
-      <line num="7" count="2" type="stmt"/>
-      <line num="11" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="14" count="1" type="stmt"/>
-      <line num="19" count="2" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
-    </file>
-    <file name="capitalize.js" path="C:\Users\amand\Desktop\Brainnest-Adv-FD-Course---Tests\Functions\capitalize.js">
+      <file name="calculator.js" path="C:\Users\amand\Desktop\Brainnest-Adv-FD-Course---Tests\calculator\calculator.js">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="11" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="capitalize">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="2" count="2" type="stmt"/>
-      <line num="4" count="2" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-    </file>
-    <file name="reverseString.js" path="C:\Users\amand\Desktop\Brainnest-Adv-FD-Course---Tests\Functions\reverseString.js">
+      <file name="capitalize.js" path="C:\Users\amand\Desktop\Brainnest-Adv-FD-Course---Tests\capitalize\capitalize.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="reverseString">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="2" count="6" type="stmt"/>
-      <line num="3" count="6" type="stmt"/>
-      <line num="4" count="66" type="stmt"/>
-      <line num="7" count="6" type="stmt"/>
-      <line num="10" count="1" type="stmt"/>
-    </file>
+      <file name="reverseString.js" path="C:\Users\amand\Desktop\Brainnest-Adv-FD-Course---Tests\reverseString\reverseString.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="66" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>

@@ -1,4 +1,4 @@
-const caesarCipher = require('../Functions/caesarCipher');
+const caesarCipher = require('./caesarCipher');
 
 test('1. Negative shift', () => {
   expect(caesarCipher('abc', -1)).toBe('zab');
