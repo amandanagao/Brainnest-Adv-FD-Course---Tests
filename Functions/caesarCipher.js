@@ -1,7 +1,8 @@
-let encrypt = function (str, shift) {
+let caesarCipher = function (str, shift) {
     if (shift < 0) {
-        return encrypt(str, shift + 26);
+        return caesarCipher(str, shift + 26);
     }
+
     let result = "";
 
     for (let i = 0; i < str.length; i++) {
@@ -10,6 +11,7 @@ let encrypt = function (str, shift) {
         if (c.match(/[a-z\s]/i)) {
             let code = str.charCodeAt(i);
 
+            
             // Check uppercase letters
             if (code >= 65 && code <= 90) {
                 c = String.fromCharCode(((code - 65 + shift) % 26) + 65);
@@ -19,12 +21,12 @@ let encrypt = function (str, shift) {
             else if (code >= 97 && code <= 122) {
                 c = String.fromCharCode(((code - 97 + shift) % 26) + 97);
             }
-        } else {
-            return 'Error';
         }
+
         result += c;
     }
+    
     return result;
-    };
+}
 
-module.exports = encrypt;
+module.exports = caesarCipher;
